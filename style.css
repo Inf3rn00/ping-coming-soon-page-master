@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  text-align: center;
+  font-family: "Libre Franklin";
+}
+
+.content-holder {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 80px;
+  margin: 17px 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  margin: 10px 0;
+}
+span {
+  font-weight: 600;
+  color: hsl(209, 33%, 12%);
+}
+
+.subscribe {
+  font-size: 15px;
+  margin: 15px 0;
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  color: hsl(209, 33%, 12%);
+}
+
+form #email {
+  border: solid 0.1px hsl(209, 33%, 12%);
+  color: hsl(209, 33%, 12%);
+  border-radius: 20px;
+  height: 30px;
+  width: 300px;
+  padding-left: 15px;
+  outline: none;
+}
+
+form .btn {
+  border-radius: 20px;
+  height: 30px;
+  width: 120px;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Libre Franklin";
+}
+
+form .btn:hover{
+  background-color: hsl(223, 100%, 88%);
+  cursor: pointer;
+}
+
+form {
+  margin: 30px 0;
+}
+
+.illustration-dashboard {
+  width: 50%;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  color: hsl(223, 87%, 63%);
+  margin: 15px 0;
+}
+
+.socials i {
+  margin: 10px;
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.socials i:hover{
+  cursor: pointer;
+  background-color:hsl(223, 87%, 63%) ;
+  color: white;
+}
+
+.copyright{
+  color: hsl(0, 0%, 59%);
+  font-family: "Libre Franklin";
+}
+@media (max-width:900px){
+  .illustration-dashboard {
+    width: 55%;
+  }
+  
+}
+@media(max-width:500px) {
+  .logo {
+    width: 80px;
+    margin: 50px 0;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+    margin: 30px 0;
+  }
+
+  .subscribe {
+    font-size: 14px;
+    margin: 25px 0;
+    font-family: "Libre Franklin";
+    font-weight: 400;
+    color: hsl(209, 33%, 12%);
+  }
+
+  form .btn {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Libre Franklin";
+    margin-top: 20px;
+  }
+
+  .illustration-dashboard {
+    width: 80%;
+  }
+  
+}
