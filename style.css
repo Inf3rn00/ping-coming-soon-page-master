@@ -5,10 +5,13 @@
   box-sizing: border-box;
 }
 
-
 body {
   text-align: center;
   font-family: "Libre Franklin";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .content-holder {
@@ -61,13 +64,18 @@ form .btn {
   font-family: "Libre Franklin";
 }
 
-form .btn:hover{
+form .btn:hover {
   background-color: hsl(223, 100%, 88%);
   cursor: pointer;
 }
 
 form {
   margin: 30px 0;
+}
+
+small {
+  display: none;
+  color: red;
 }
 
 .illustration-dashboard {
@@ -91,23 +99,22 @@ form {
   place-content: center;
 }
 
-.socials i:hover{
+.socials i:hover {
   cursor: pointer;
-  background-color:hsl(223, 87%, 63%) ;
+  background-color: hsl(223, 87%, 63%);
   color: white;
 }
 
-.copyright{
+.copyright {
   color: hsl(0, 0%, 59%);
   font-family: "Libre Franklin";
 }
-@media (max-width:900px){
+@media (max-width: 900px) {
   .illustration-dashboard {
     width: 55%;
   }
-  
 }
-@media(max-width:500px) {
+@media (max-width: 500px) {
   .logo {
     width: 80px;
     margin: 50px 0;
@@ -143,5 +150,4 @@ form {
   .illustration-dashboard {
     width: 80%;
   }
-  
 }
